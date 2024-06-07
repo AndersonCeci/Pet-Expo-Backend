@@ -8,7 +8,7 @@
 <p>1. Clone and download</p>
 
 ```
-$ git clone https://github.com/AndersonCeci/PET-EXPO.git
+$ git clone https://github.com/AndersonCeci/Pet-Expo-Backend
 
 ```
 
@@ -35,34 +35,5 @@ $ node index.js  //to start the backend
 
 ```
 
-<p>3. To start Client (frontend)</p>
-
-```
-$ cd client
-
-```
-
-```
-$ npm install
-
-```
-
-```
-$ npm start  //to start the frontend
-
-```
-
-  
-  
-<h2>💻 Built with</h2>
-
-Technologies used in the project:
-
-*   MongoDB
-*   Express.js
-*   React
-*   Node.js
-*   Docker
-*   Cypress
 
 #### To access admin page you need to login/register
