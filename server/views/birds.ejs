@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>List of Birds</h1>
+        <% bird.forEach(bird => { %>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="<%= bird.image %>" class="img-fluid rounded-start" alt="<%= bird.name %>">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><%= bird.name %></h5>
+                            <p class="card-text"><%= bird.description %></p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>Species:</strong> <%= bird.species %></li>
+                                <li class="list-group-item"><strong>Family:</strong> <%= bird.family %></li>
+                                <li class="list-group-item"><strong>Habitat:</strong> <%= bird.habitat %></li>
+                                <li class="list-group-item"><strong>Place Found:</strong> <%= bird.place_of_found %></li>
+                                <li class="list-group-item"><strong>Diet:</strong> <%= bird.diet%></li>
+                                <li class="list-group-item"><strong>Wingspan:</strong> <%= bird.wingspan_cm %></li>
+                                <li class="list-group-item"><strong>Weight:</strong> <%= bird.weight_kg %></li>
+
+
+                            </ul>
+                            <a href="/birds/<%= bird._id %>" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

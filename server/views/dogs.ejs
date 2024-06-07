@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-4">List of Dogs</h1>
+    <div class="row">
+      <% dogs.forEach(dog => { %>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="<%= dog.image %>" class="card-img-top" alt="<%= dog.name %>">
+            <div class="card-body">
+              <h5 class="card-title"><%= dog.name %></h5>
+              <p class="card-text"><strong>Breed Group:</strong> <%= dog.breed_group %></p>
+              <p class="card-text"><strong>Size:</strong> <%= dog.size %></p>
+              <p class="card-text"><strong>Lifespan:</strong> <%= dog.lifespan %></p>
+              <p class="card-text"><strong>Origin:</strong> <%= dog.origin %></p>
+              <p class="card-text"><strong>Temperament:</strong> <%= dog.temperament.join(', ') %></p>
+              <p class="card-text"><strong>Colors:</strong> <%= dog.colors.join(', ') %></p>
+              <p class="card-text"><%= dog.description %></p>
+              <a href="/dogs/<%= dog._id %>" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</b

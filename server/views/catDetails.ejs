@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Details</title>
+</head>
+<body>
+    <h1>Bird Details</h1>
+    <div>
+        <h2>Name:</h2>
+        <p><%= cat.name%></p>
+    </div>
+    <div>
+        <h2>Origin:</h2>
+        <p><%= cat.origin %></p>
+    </div>
+    <div>
+        <h2>Temperament:</h2>
+        <p><%= cat.temperament %></p>
+    </div>
+    <div>
+        <h2>Colors:</h2>
+        <p><%= cat.colors %></p>
+    </div>
+    <div>
+        <h2>Description:</h2>
+        <p><%= cat.description %></p>
+    </div>
+    <a href="/cats">Back to Cats</a>
+    <a href="/cats/<%= cat._id %>/edit">Edit</a>
+    <form action="/cats/<%= cat._id %>/delete" method="POST">
+        <button type="submit">Delete</button>
+    </form>
+    
+
+</body>
+</html>

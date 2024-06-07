@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Details</title>
+</head>
+<body>
+    <h1>Dog Details</h1>
+    <div>
+        <h2>Name:</h2>
+        <p><%= dog.name%></p>
+    </div>
+    <div>
+        <h2>breed_group:</h2>
+        <p><%= dog.breed_group %></p>
+    </div>
+    <div>
+        <h2>Size:</h2>
+        <p><%= dog.size %></p>
+    </div>
+    <div>
+        <h2>lifespan:</h2>
+        <p><%= dog.lifespan %></p>
+    </div>
+    <div>
+        <h2>origin:</h2>
+        <p><%= dog.origin %></p>
+    </div>
+    <div>
+        <h2>temperament:</h2>
+        <p><%= dog.temperament %></p>
+    </div>
+    <div>
+        <h2>colors:</h2>
+        <p><%= dog.colors %></p>
+    </div>
+    <div>
+        <h2>Description:</h2>
+        <p><%= dog.description %></p>
+    </div>
+    <a href="/dogs">Back to Dogs</a>
+    <a href="/dogs/<%= dog._id %>/edit">Edit</a>
+    <form action="/dogs/<%= dog._id %>/delete" method="POST">
+        <button type="submit">Delete</button>
+    </form>
+    
+
+</body>
+</html>

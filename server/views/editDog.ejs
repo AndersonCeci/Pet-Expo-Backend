@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Cat</title>
+</head>
+<body>
+    <form action="/dogs/<%= dog._id %>?_method=PATCH" method="POST">
+        <label for="name">Enter Name</label>
+        <input type="text" name="name" id="name" placeholder="enter-name" value="<%= dog.name %>">
+
+        <label for="breed_group">Enter breed_group</label>
+        <input type="text" name="breed_group" id="breed_group" placeholder="enter-breed_group" value="<%= dog.breed_group %>">
+
+        <label for="size">Enter size</label>
+        <input type="text" name="size" id="size" placeholder="enter-size" value="<%= dog.size %>">
+
+        <label for="lifespan">Enter lifespan</label>
+        <input type="text" name="lifespan" id="lifespan" placeholder="enter-lifespan" value="<%= dog.lifespan %>">
+
+        <label for="origin">Enter origin</label>
+        <input type="text" name="origin" id="origin" placeholder="enter-origin" value="<%= dog.origin %>">
+
+        <label for="temperament">Enter temperament</label>
+        <input type="text" name="temperament" id="temperament" placeholder="enter-temperament" value="<%= dog.temperament %>">
+
+        <label for="colors">Enter colors</label>
+        <input type="text" name="colors" id="colors" placeholder="enter-colors" value="<%= dog.colors %>">
+
+        <label for="description">Enter description</label>
+        <input type="text" name="description" id="description" placeholder="enter-description" value="<%= dog.description %>">
+
+        <button>Submit</button>
+    </form>
+    <a href="edit">edit</a>
+</body>
+</html>

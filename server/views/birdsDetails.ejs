@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Details</title>
+</head>
+<body>
+    <h1>Bird Details</h1>
+    <div>
+        <h2>Name:</h2>
+        <p><%= bird.name%></p>
+    </div>
+    <div>
+        <h2>Species:</h2>
+        <p><%= bird.species %></p>
+    </div>
+    <div>
+        <h2>Family:</h2>
+        <p><%= bird.family %></p>
+    </div>
+    <div>
+        <h2>Habitat:</h2>
+        <p><%= bird.habitat %></p>
+    </div>
+    <div>
+        <h2>Place of Found:</h2>
+        <p><%= bird.place_of_found %></p>
+    </div>
+    <div>
+        <h2>Diet:</h2>
+        <p><%= bird.diet %></p>
+    </div>
+    <div>
+        <h2>Description:</h2>
+        <p><%= bird.description %></p>
+    </div>
+    <div>
+        <h2>Wingspan (cm):</h2>
+        <p><%= bird.wingspan_cm %></p>
+    </div>
+    <div>
+        <h2>Weight (kg):</h2>
+        <p><%= bird.weight_kg %></p>
+    </div>
+    <a href="/birds">Back to Birds</a>
+    <a href="/birds/<%= bird._id %>/edit">Edit</a>
+    <form action="/birds/<%= bird._id %>/delete" method="POST">
+        <button type="submit">Delete</button>
+    </form>
+    
+
+</body>
+</html>

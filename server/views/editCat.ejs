@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Cat</title>
+</head>
+<body>
+    <form action="/cats/<%= cat._id%>?_method=PATCH" method="POST">
+        <label for="name">Enter Name</label>
+        <input type="text" name="name" id="name" placeholder="enter-name" value="<%= cat.name %>">
+
+        <label for="origin">Enter origin</label>
+        <input type="text" name="origin" id="origin" placeholder="enter-origin" value="<%= cat.origin %>">
+
+        <label for="temperament">Enter temperament</label>
+        <input type="text" name="family" id="temperament" placeholder="enter-temperament" value="<%= cat.temperament %>">
+
+        <label for="colors">Enter colors</label>
+        <input type="text" name="colors" id="colors" placeholder="enter-colors" value="<%= cat.colors %>">
+
+        <label for="description">Enter Description</label>
+        <input type="text" name="description" id="description" placeholder="enter-description" value="<%= cat.description %>">
+
+        <button>Submit</button>
+    </form>
+    <a href="edit">edit</a>
+</body>
+</html>

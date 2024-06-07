@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>List of Cats</h1>
+        <% cats.forEach(cat => { %>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="<%= cat.image %>" class="img-fluid rounded-start" alt="<%= cat.name %>">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><%= cat.name %></h5>
+                            <p class="card-text"><%= cat.description %></p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>Origin:</strong> <%= cat.origin %></li>
+                                <li class="list-group-item"><strong>Temperament:</strong> <%= cat.temperament %></li>
+                                <li class="list-group-item"><strong>Colors:</strong> <%= cat.colors %></li>
+                            </ul>
+                            <a href="/cats/<%= cat._id %>" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

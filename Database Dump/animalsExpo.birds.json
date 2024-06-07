@@ -1,0 +1,762 @@
+[{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280e2"
+  },
+  "name": "Woodpecker",
+  "species": "Picidae",
+  "family": "Picidae",
+  "habitat": "Forests and Woodlands",
+  "place_of_found": "Various regions",
+  "diet": "Insects and Nuts",
+  "description": "Woodpeckers are medium-sized birds known for their strong beaks and drumming behavior on trees to find insects.",
+  "wingspan_cm": "30",
+  "weight_kg": "0.2",
+  "image": "https://fakeimg.pl/500x500/cc7716",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280e3"
+  },
+  "name": "Woodpecker",
+  "species": "Picidae",
+  "family": "Picidae",
+  "habitat": "Forests and Woodlands",
+  "place_of_found": "Worldwide",
+  "diet": "Insects and Tree Sap",
+  "description": "Woodpeckers are birds with strong beaks used for drilling holes into trees in search of insects.",
+  "wingspan_cm": "35",
+  "weight_kg": "0.3",
+  "image": "https://fakeimg.pl/500x500/cc7754",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280e4"
+  },
+  "name": "Wandering Albatross",
+  "species": "Diomedea exulans",
+  "family": "Diomedeidae",
+  "habitat": "Open Oceans",
+  "place_of_found": "Southern Ocean",
+  "diet": "Carnivore",
+  "description": "The wandering albatross is one of the largest seabirds with an impressive wingspan and is known for its remarkable flying abilities.",
+  "weight_kg": "10",
+  "image": "https://fakeimg.pl/500x500/cc6699",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280e5"
+  },
+  "name": "Toucanet",
+  "species": "Aulacorhynchus",
+  "family": "Ramphastidae",
+  "habitat": "Rainforests",
+  "place_of_found": "Central and South America",
+  "diet": "Fruits and Insects",
+  "description": "Toucanets are small, colorful birds related to toucans and known for their vibrant plumage.",
+  "wingspan_cm": "40",
+  "weight_kg": "0.2",
+  "image": "https://fakeimg.pl/500x500/cc7711",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280e6"
+  },
+  "name": "Toucan",
+  "species": "Ramphastidae",
+  "family": "Ramphastidae",
+  "habitat": "Rainforests",
+  "place_of_found": "Central and South America",
+  "diet": "Fruits and Insects",
+  "description": "Toucans are brightly colored birds known for their large, colorful bills.",
+  "wingspan_cm": "50",
+  "weight_kg": "0.5",
+  "image": "https://fakeimg.pl/500x500/cc7706",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280e7"
+  },
+  "name": "Swan",
+  "species": "Cygnus",
+  "family": "Anatidae",
+  "habitat": "Lakes and Ponds",
+  "place_of_found": "Various regions",
+  "diet": "Herbivore",
+  "description": "Swans are elegant and graceful birds known for their long necks and beautiful swimming movements.",
+  "wingspan_cm": "200",
+  "weight_kg": "10",
+  "image": "https://fakeimg.pl/500x500/cc7725",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280e8"
+  },
+  "name": "Swan",
+  "species": "Anatidae",
+  "family": "Anatidae",
+  "habitat": "Lakes and Ponds",
+  "place_of_found": "Various regions",
+  "diet": "Aquatic Plants and Insects",
+  "description": "Swans are elegant water birds known for their long necks and graceful swimming.",
+  "wingspan_cm": "200",
+  "weight_kg": "10",
+  "image": "https://fakeimg.pl/500x500/cc7740",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280e9"
+  },
+  "name": "Swallow-tailed Toucan",
+  "species": "Ramphastos sulfuratus",
+  "family": "Ramphastidae",
+  "habitat": "Rainforests",
+  "place_of_found": "Central and South America",
+  "diet": "Fruits, insects, lizards",
+  "description": "The swallow-tailed toucan is a colorful bird with a large and vibrant bill, known for its graceful flight and acrobatic skills.",
+  "weight_kg": "0.5",
+  "image": "https://fakeimg.pl/500x500/cc6700",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280ea"
+  },
+  "name": "Snowy Owl",
+  "species": "Bubo scandiacus",
+  "family": "Strigidae",
+  "habitat": "Arctic Tundra",
+  "place_of_found": "Arctic Region",
+  "diet": "Carnivore",
+  "description": "Snowy owls are large, white owls known for their excellent hunting skills in snowy environments.",
+  "wingspan_cm": "150",
+  "weight_kg": "2.5",
+  "image": "https://fakeimg.pl/500x500/cc7710",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280eb"
+  },
+  "name": "Snowy Owl",
+  "species": "Bubo scandiacus",
+  "family": "Strigidae",
+  "habitat": "Arctic Tundra",
+  "place_of_found": "Arctic",
+  "diet": "Small Mammals and Birds",
+  "description": "Snowy Owls are large white owls with a rounded head and yellow eyes, well adapted to their cold habitats.",
+  "wingspan_cm": "150",
+  "weight_kg": "2.5",
+  "image": "https://fakeimg.pl/500x500/cc7759",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280ec"
+  },
+  "name": "Roseate Spoonbill",
+  "species": "Platalea ajaja",
+  "family": "Threskiornithidae",
+  "habitat": "Shallow coastal waters, marshes",
+  "place_of_found": "North and South America",
+  "diet": "Carnivore (fish, crustaceans, insects)",
+  "description": "The roseate spoonbill is a beautiful wading bird known for its pink plumage and distinct spoon-shaped bill.",
+  "weight_kg": "1.2",
+  "image": "https://fakeimg.pl/500x500/cc6674",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280ed"
+  },
+  "name": "Rhea",
+  "species": "Rhea americana",
+  "family": "Rheidae",
+  "habitat": "Grasslands and Savannas",
+  "place_of_found": "South America",
+  "diet": "Omnivore (mainly plants, insects, and small vertebrates)",
+  "description": "The rhea is a large, flightless bird native to South America, and it is known for its fast running speed and strong legs.",
+  "weight_kg": "30",
+  "image": "https://fakeimg.pl/500x500/cc6640",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280ee"
+  },
+  "name": "Resplendent Quetzal",
+  "species": "Pharomachrus mocinno",
+  "family": "Trogonidae",
+  "habitat": "Cloud Forests",
+  "place_of_found": "Central America",
+  "diet": "Frugivore",
+  "description": "The resplendent quetzal is a magnificent and sacred bird known for its brilliant green and red plumage.",
+  "weight_kg": "0.23",
+  "image": "https://fakeimg.pl/500x500/cc6618",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280ef"
+  },
+  "name": "Rainbow Lorikeet",
+  "species": "Trichoglossus moluccanus",
+  "family": "Psittaculidae",
+  "habitat": "Rainforests, Woodlands, and Coastal Regions",
+  "place_of_found": "Australia, Eastern Indonesia, Papua New Guinea",
+  "diet": "Omnivore",
+  "description": "The rainbow lorikeet is a colorful and playful parrot species native to Australia and nearby regions.",
+  "weight_kg": "0.15",
+  "image": "https://fakeimg.pl/500x500/cc6637",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f0"
+  },
+  "name": "Puffin",
+  "species": "Fratercula",
+  "family": "Alcidae",
+  "habitat": "Coastal Cliffs",
+  "place_of_found": "North Atlantic and North Pacific",
+  "diet": "Carnivore",
+  "description": "Puffins are small seabirds known for their distinctive appearance with colorful beaks and bright plumage.",
+  "wingspan_cm": "45",
+  "weight_kg": "0.4",
+  "image": "https://fakeimg.pl/500x500/cc7713",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f1"
+  },
+  "name": "Pigeon",
+  "species": "Columbidae",
+  "family": "Columbidae",
+  "habitat": "Urban Areas",
+  "place_of_found": "Worldwide",
+  "diet": "Seeds and Grains",
+  "description": "Pigeons are common birds found in urban areas known for their ability to navigate long distances.",
+  "wingspan_cm": "60",
+  "weight_kg": "0.3",
+  "image": "https://fakeimg.pl/500x500/cc7738",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f2"
+  },
+  "name": "Penguin",
+  "species": "Spheniscidae",
+  "family": "Spheniscidae",
+  "habitat": "Antarctica",
+  "place_of_found": "Antarctic Region",
+  "diet": "Carnivore",
+  "description": "Penguins are flightless birds known for their distinctive black and white plumage.",
+  "wingspan_cm": "100",
+  "weight_kg": "25",
+  "image": "https://fakeimg.pl/500x500/cc7705",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f3"
+  },
+  "name": "Pelican",
+  "species": "Pelecanidae",
+  "family": "Pelecanidae",
+  "habitat": "Coastal and Inland Waters",
+  "place_of_found": "Worldwide",
+  "diet": "Fish and Small Water Creatures",
+  "description": "Pelicans are large water birds known for their long beaks and pouches for catching fish.",
+  "wingspan_cm": "250",
+  "weight_kg": "10",
+  "image": "https://fakeimg.pl/500x500/cc7750",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f4"
+  },
+  "name": "Peacock",
+  "species": "Pavo cristatus",
+  "family": "Phasianidae",
+  "habitat": "Forests and Grasslands",
+  "place_of_found": "India",
+  "diet": "Omnivore",
+  "description": "The peacock is a large and colorful bird known for its extravagant tail feathers.",
+  "wingspan_cm": "160",
+  "weight_kg": "4.5",
+  "image": "https://fakeimg.pl/500x500/cc7702",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f5"
+  },
+  "name": "Parrot",
+  "species": "Psittacidae",
+  "family": "Psittacidae",
+  "habitat": "Tropical and Subtropical Regions",
+  "place_of_found": "Central and South America, Africa, Asia, Oceania",
+  "diet": "Fruits, Seeds, and Nectar",
+  "description": "Parrots are colorful birds known for their ability to mimic human speech and sounds.",
+  "wingspan_cm": "60",
+  "weight_kg": "0.4",
+  "image": "https://fakeimg.pl/500x500/cc7748",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f6"
+  },
+  "name": "Ostrich",
+  "species": "Struthio camelus",
+  "family": "Struthionidae",
+  "habitat": "Grasslands and Deserts",
+  "place_of_found": "Africa",
+  "diet": "Omnivore",
+  "description": "Ostriches are flightless birds known for being the largest and fastest birds on land.",
+  "wingspan_cm": "240",
+  "weight_kg": "135",
+  "image": "https://fakeimg.pl/500x500/cc7709",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f7"
+  },
+  "name": "Laysan Albatross",
+  "species": "Phoebastria immutabilis",
+  "family": "Diomedeidae",
+  "habitat": "Tropical and Subtropical Waters",
+  "place_of_found": "North Pacific Ocean",
+  "diet": "Carnivore",
+  "description": "The Laysan albatross is a seabird known for its graceful gliding and long-distance flights across the ocean.",
+  "weight_kg": "3.5",
+  "image": "https://fakeimg.pl/500x500/cc6698",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f8"
+  },
+  "name": "Kookaburra",
+  "species": "Dacelo",
+  "family": "Alcedinidae",
+  "habitat": "Woodlands and Forests",
+  "place_of_found": "Australia and New Guinea",
+  "diet": "Small Animals and Insects",
+  "description": "Kookaburras are iconic Australian birds known for their loud, laughing calls.",
+  "wingspan_cm": "45",
+  "weight_kg": "0.5",
+  "image": "https://fakeimg.pl/500x500/cc7745",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280f9"
+  },
+  "name": "Kingfisher",
+  "species": "Alcedinidae",
+  "family": "Alcedinidae",
+  "habitat": "Rivers, Lakes, and Ponds",
+  "place_of_found": "Various regions",
+  "diet": "Carnivore",
+  "description": "Kingfishers are small to medium-sized birds known for their brightly colored plumage and impressive diving and fishing skills.",
+  "wingspan_cm": "25",
+  "weight_kg": "0.1",
+  "image": "https://fakeimg.pl/500x500/cc7712",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280fa"
+  },
+  "name": "Keel-billed Toucan",
+  "species": "Ramphastos sulfuratus",
+  "family": "Ramphastidae",
+  "habitat": "Rainforests",
+  "place_of_found": "Central and South America",
+  "diet": "Fruits, insects, lizards",
+  "description": "The keel-billed toucan is a colorful bird with a large and vibrant bill, known for its playful and social behavior.",
+  "weight_kg": "0.5",
+  "image": "https://fakeimg.pl/500x500/cc6699",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280fb"
+  },
+  "name": "Hummingbird",
+  "species": "Trochilidae",
+  "family": "Trochilidae",
+  "habitat": "Tropical and Subtropical Regions",
+  "place_of_found": "Americas",
+  "diet": "Nectar and Insects",
+  "description": "Hummingbirds are small, colorful birds known for their rapid wing beats and hovering abilities.",
+  "wingspan_cm": "13",
+  "weight_kg": "0.0025",
+  "image": "https://fakeimg.pl/500x500/cc7704",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280fc"
+  },
+  "name": "Horned Puffin",
+  "species": "Fratercula corniculata",
+  "family": "Alcidae",
+  "habitat": "Coastal cliffs and islands",
+  "place_of_found": "North Pacific",
+  "diet": "Carnivore",
+  "description": "The horned puffin is a seabird known for its distinctive bright beak and unique horn-like projections above its eyes.",
+  "weight_kg": "0.5",
+  "image": "https://fakeimg.pl/500x500/cc6608",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280fd"
+  },
+  "name": "Hornbill",
+  "species": "Bucerotidae",
+  "family": "Bucerotidae",
+  "habitat": "Forests and Woodlands",
+  "place_of_found": "Africa, Asia",
+  "diet": "Omnivore",
+  "description": "Hornbills are medium-sized birds known for their large, curved bills.",
+  "wingspan_cm": "100",
+  "weight_kg": "2.7",
+  "image": "https://fakeimg.pl/500x500/cc7703",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280fe"
+  },
+  "name": "Harpy Eagle",
+  "species": "Harpia harpyja",
+  "family": "Accipitridae",
+  "habitat": "Tropical Rainforests",
+  "place_of_found": "Central and South America",
+  "diet": "Carnivore",
+  "description": "The harpy eagle is a powerful and majestic bird of prey found in the dense tropical rainforests.",
+  "weight_kg": "9.5",
+  "image": "https://fakeimg.pl/500x500/cc6636",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc1131280ff"
+  },
+  "name": "Golden Pheasant",
+  "species": "Chrysolophus pictus",
+  "family": "Phasianidae",
+  "habitat": "Forests and Mountains",
+  "place_of_found": "China",
+  "diet": "Omnivore",
+  "description": "The golden pheasant is a colorful and exotic bird known for its striking plumage and elegant appearance.",
+  "weight_kg": "0.7",
+  "image": "https://fakeimg.pl/500x500/cc6630",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128100"
+  },
+  "name": "Golden Eagle",
+  "species": "Aquila chrysaetos",
+  "family": "Accipitridae",
+  "habitat": "Mountains and Open Country",
+  "place_of_found": "North America, Europe, Asia",
+  "diet": "Carnivore",
+  "description": "The golden eagle is a large bird of prey known for its powerful talons and keen eyesight.",
+  "weight_kg": "4.5",
+  "image": "https://fakeimg.pl/500x500/cc6634",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128101"
+  },
+  "name": "Flamingo",
+  "species": "Phoenicopteridae",
+  "family": "Phoenicopteridae",
+  "habitat": "Saltwater and Brackish Lakes",
+  "place_of_found": "Africa, Americas",
+  "diet": "Omnivore",
+  "description": "Flamingos are large wading birds known for their vibrant pink plumage and distinctive hooked bills.",
+  "wingspan_cm": "150",
+  "weight_kg": "2.5",
+  "image": "https://fakeimg.pl/500x500/cc7708",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128102"
+  },
+  "name": "Emu",
+  "species": "Dromaius novaehollandiae",
+  "family": "Dromaiidae",
+  "habitat": "Open grasslands and forests",
+  "place_of_found": "Australia",
+  "diet": "Herbivore (plants, seeds, fruits)",
+  "description": "The emu is the second-largest bird in the world and is known for its long neck, strong legs, and fast running speed.",
+  "weight_kg": "36",
+  "image": "https://fakeimg.pl/500x500/cc6646",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128103"
+  },
+  "name": "Emperor Penguin",
+  "species": "Aptenodytes forsteri",
+  "family": "Spheniscidae",
+  "habitat": "Antarctica",
+  "place_of_found": "Antarctica",
+  "diet": "Carnivore (mainly fish and krill)",
+  "description": "The emperor penguin is the largest and tallest of all penguin species, known for its remarkable ability to survive in the harsh Antarctic environment.",
+  "weight_kg": "22",
+  "image": "https://fakeimg.pl/500x500/cc6638",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128104"
+  },
+  "name": "Emerald Toucanet",
+  "species": "Aulacorhynchus prasinus",
+  "family": "Ramphastidae",
+  "habitat": "Tropical and subtropical forests",
+  "place_of_found": "Central and South America",
+  "diet": "Fruit, insects, small vertebrates",
+  "description": "The emerald toucanet is a small and colorful bird known for its bright green plumage and distinctive large beak.",
+  "weight_kg": "0.2",
+  "image": "https://fakeimg.pl/500x500/cc6616",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128105"
+  },
+  "name": "Eagle",
+  "species": "Accipitridae",
+  "family": "Accipitridae",
+  "habitat": "Mountainous Regions",
+  "place_of_found": "Various regions",
+  "diet": "Carnivore",
+  "description": "Eagles are large and powerful birds of prey known for their keen eyesight and strong hunting skills.",
+  "wingspan_cm": "200",
+  "weight_kg": "4",
+  "image": "https://fakeimg.pl/500x500/cc7734",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128106"
+  },
+  "name": "Eagle",
+  "species": "Accipitridae",
+  "family": "Accipitridae",
+  "habitat": "Various Habitats",
+  "place_of_found": "Worldwide",
+  "diet": "Small Animals and Fish",
+  "description": "Eagles are powerful birds of prey known for their keen eyesight and soaring flight.",
+  "wingspan_cm": "200",
+  "weight_kg": "4",
+  "image": "https://fakeimg.pl/500x500/cc7743",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128107"
+  },
+  "name": "Eagle",
+  "species": "Accipitridae",
+  "family": "Accipitridae",
+  "habitat": "Various Habitats",
+  "place_of_found": "Worldwide",
+  "diet": "Small Animals and Fish",
+  "description": "Eagles are large birds of prey known for their powerful beaks and keen eyesight.",
+  "wingspan_cm": "200",
+  "weight_kg": "4",
+  "image": "https://fakeimg.pl/500x500/cc7753",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128108"
+  },
+  "name": "Crowned Crane",
+  "species": "Balearica pavonina",
+  "family": "Gruidae",
+  "habitat": "Wetlands and grasslands",
+  "place_of_found": "Africa",
+  "diet": "Omnivore (plants, insects, small vertebrates)",
+  "description": "The crowned crane is a majestic bird known for its elegant appearance and dance-like courtship displays.",
+  "weight_kg": "3.5",
+  "image": "https://fakeimg.pl/500x500/cc6673",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128109"
+  },
+  "name": "Common Kestrel",
+  "species": "Falco tinnunculus",
+  "family": "Falconidae",
+  "habitat": "Open countryside, grasslands, farmlands",
+  "place_of_found": "Europe, Asia, and Africa",
+  "diet": "Carnivore (small mammals, insects, birds)",
+  "description": "The common kestrel is a small falcon known for its hovering hunting technique and striking plumage.",
+  "weight_kg": "0.2",
+  "image": "https://fakeimg.pl/500x500/cc6675",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc11312810a"
+  },
+  "name": "Cockatoo",
+  "species": "Cacatuidae",
+  "family": "Cacatuidae",
+  "habitat": "Forests and Woodlands",
+  "place_of_found": "Australia, Oceania, Southeast Asia",
+  "diet": "Seeds, Nuts, and Fruits",
+  "description": "Cockatoos are large parrots with a distinctive crest on top of their heads and are known for their vocal abilities.",
+  "wingspan_cm": "50",
+  "weight_kg": "0.5",
+  "image": "https://fakeimg.pl/500x500/cc7760",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc11312810b"
+  },
+  "name": "Channel-billed Toucan",
+  "species": "Ramphastos vitellinus",
+  "family": "Ramphastidae",
+  "habitat": "Tropical and subtropical forests",
+  "place_of_found": "South America",
+  "diet": "Fruits, insects, small reptiles",
+  "description": "The channel-billed toucan is a large and colorful bird with a distinctive yellow-orange bill and is known for its loud vocalizations.",
+  "weight_kg": "0.6",
+  "image": "https://fakeimg.pl/500x500/cc6701",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc11312810c"
+  },
+  "name": "Cassowary",
+  "species": "Casuarius",
+  "family": "Casuariidae",
+  "habitat": "Rainforests and Swamps",
+  "place_of_found": "Australia, New Guinea, and nearby islands",
+  "diet": "Omnivore (fruits, insects, small vertebrates)",
+  "description": "The cassowary is a large, flightless bird known for its vibrant coloration, helmet-like casque, and powerful legs.",
+  "weight_kg": "60",
+  "image": "https://fakeimg.pl/500x500/cc6645",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc11312810d"
+  },
+  "name": "Blue Jay",
+  "species": "Cyanocitta cristata",
+  "family": "Corvidae",
+  "habitat": "Forests and Woodlands",
+  "place_of_found": "North America",
+  "diet": "Omnivore",
+  "description": "The blue jay is a strikingly beautiful bird with its blue and white plumage, known for its intelligence and raucous calls.",
+  "weight_kg": "0.1",
+  "image": "https://fakeimg.pl/500x500/cc6642",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc11312810e"
+  },
+  "name": "Black-browed Albatross",
+  "species": "Thalassarche melanophris",
+  "family": "Diomedeidae",
+  "habitat": "Southern Ocean",
+  "place_of_found": "South Atlantic and South Pacific",
+  "diet": "Carnivore",
+  "description": "The Black-browed albatross is a large seabird with distinct black markings on its face and wings.",
+  "weight_kg": "3.2",
+  "image": "https://fakeimg.pl/500x500/cc6699",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc11312810f"
+  },
+  "name": "Belted Kingfisher",
+  "species": "Megaceryle alcyon",
+  "family": "Alcedinidae",
+  "habitat": "Rivers, streams, and lakes",
+  "place_of_found": "North and Central America",
+  "diet": "Carnivore (fish, insects, amphibians)",
+  "description": "The belted kingfisher is a medium-sized bird known for its diving hunting technique and distinct blue and white plumage.",
+  "weight_kg": "0.1",
+  "image": "https://fakeimg.pl/500x500/cc6676",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128110"
+  },
+  "name": "Bald Eagle",
+  "species": "Haliaeetus leucocephalus",
+  "family": "Accipitridae",
+  "habitat": "Forests, Coasts, and Lakes",
+  "place_of_found": "North America",
+  "diet": "Carnivore",
+  "description": "The bald eagle is a powerful bird of prey known for its white head and tail feathers.",
+  "wingspan_cm": "200",
+  "weight_kg": "6.3",
+  "image": "https://fakeimg.pl/500x500/cc7701",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128111"
+  },
+  "name": "Bald Eagle",
+  "species": "Haliaeetus leucocephalus",
+  "family": "Accipitridae",
+  "habitat": "Coastal and Lakeside Areas",
+  "place_of_found": "North America",
+  "diet": "Carnivore",
+  "description": "Bald eagles are large raptors known for their distinctive white head and tail feathers and powerful hunting abilities.",
+  "wingspan_cm": "220",
+  "weight_kg": "7",
+  "image": "https://fakeimg.pl/500x500/cc7715",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66605b36e8564bc113128113"
+  },
+  "name": "Albatross",
+  "species": "Diomedeidae",
+  "family": "Diomedeidae",
+  "habitat": "Oceanic Regions",
+  "place_of_found": "Southern Ocean",
+  "diet": "Carnivore",
+  "description": "Albatrosses are large seabirds known for their long wingspans and impressive gliding abilities.",
+  "wingspan_cm": "340",
+  "weight_kg": "8.5",
+  "image": "https://fakeimg.pl/500x500/cc7707",
+  "__v": 0
+}]
